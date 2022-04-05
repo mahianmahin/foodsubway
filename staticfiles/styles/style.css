@@ -1,0 +1,40 @@
+/* :root {
+    
+} */
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.construction_main {
+    background-color: #e4e4e4;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center_div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.center_div img {
+    height: 100px;
+    width: auto;
+}
+
+.banner {
+    margin: 10px 0px;
+    background-color: black;
+    border-radius: 8px;
+    padding: 0px 15px;
+    color: white;
+}
+
+.banner_text {
+    color: #6ad053;
+}
