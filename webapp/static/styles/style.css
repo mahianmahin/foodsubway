@@ -2,6 +2,10 @@
     --base_color: #FE9036
 }
 
+a {
+    text-decoration: none;
+}
+
 body {
     font-family: 'Lato', sans-serif;
     background-color: red;
@@ -54,6 +58,7 @@ body {
     box-shadow: 0px 5px 17px 0px rgba(254, 144, 54, 0.47);
     /* border-bottom: 3px solid var(--base_color); */
     padding: 20px 20px;
+    z-index: 800;
 }
 
 .logo img {
@@ -184,6 +189,112 @@ body {
 }
 
 /* side navbar section ends here */
+
+/* index page section starts here */
+.carousel_section img {
+    width: 1900px;
+}
+
+.div_heading_text {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.colored_text {
+    color: var(--base_color);
+}
+
+/* product card */
+
+.product_card {
+    height: 550px;
+    width: 300px;
+    border-radius: 8px;
+    margin: 0px 5px;
+    /* border: 2px solid var(--base_color); */
+}
+
+.product_slider {
+    height: 600px;
+}
+
+.thumb img {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.new_badge {
+    top: 2%;
+    left: 2%;
+    height: 50px;
+    width: 50px;
+    background-color: var(--base_color);
+    position: absolute;
+    border-radius: 50%;
+    color: white;
+    font-weight: bold;
+}
+
+.name {
+    height: 100px;
+    padding: 0px 5px;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+}
+
+.off_price,
+.main_price {
+    height: 30px;
+    /* background-color: red; */
+    border-radius: 18px;
+    padding: 5px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 5px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.off_price {
+    background-color: rgba(255, 119, 0, 0.274);
+    text-decoration: line-through;
+    font-weight: normal;
+    opacity: .7;
+}
+
+.main_price {
+    background-color: var(--base_color);
+}
+
+.action_button a {
+    text-decoration: none;
+}
+
+.order_button {
+    background-color: var(--base_color);
+    padding: 5px 15px;
+    border-radius: 18px;
+    color: white;
+    font-weight: bold;
+    transition: .2s;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.order_button:hover {
+    color: var(--base_color);
+    background-color: transparent;
+    border: 1px solid var(--base_color);
+}
+
+/* product card */
+
+/* index page section ends here */
 
 
 @media (max-width: 769px) {
